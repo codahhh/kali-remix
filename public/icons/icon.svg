@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="KALI WEB OS emblem">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1424"/>
+      <stop offset="55%" stop-color="#060a12"/>
+      <stop offset="100%" stop-color="#0a1a2b"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5ee7ff"/>
+      <stop offset="52%" stop-color="#2b8fff"/>
+      <stop offset="100%" stop-color="#1a4dff"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b8f6ff"/>
+      <stop offset="45%" stop-color="#5ee7ff"/>
+      <stop offset="100%" stop-color="#2b8fff"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0%" stop-color="#2b8fff" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#2b8fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#halo)"/>
+  <g opacity="0.32" stroke="#3ba6ff" stroke-width="2">
+    <path d="M96 152h56M96 200h32M360 312h56M384 360h32M256 72v44M256 396v44"/>
+  </g>
+  <circle cx="152" cy="152" r="5" fill="#5ee7ff" opacity="0.8"/>
+  <circle cx="360" cy="360" r="5" fill="#5ee7ff" opacity="0.8"/>
+  <path d="M256 74 402 158v196L256 438 110 354V158z" fill="none" stroke="url(#edge)" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M256 118 364 180v152l-108 62-108-62V180z" fill="none" stroke="#1f4f86" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M204 186v140M204 256l86-70M204 256l92 70" fill="none" stroke="url(#mark)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="296" cy="186" r="10" fill="#b8f6ff"/>
+  <circle cx="296" cy="326" r="10" fill="#5ee7ff"/>
+  <rect x="188" y="172" width="32" height="168" rx="16" fill="#5ee7ff" opacity="0.16"/>
+</svg>

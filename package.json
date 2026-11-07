@@ -1,0 +1,35 @@
+{
+  "name": "kali-web-os",
+  "private": true,
+  "version": "1.0.0",
+  "description": "KALI WEB OS — an honest, offline-first Linux-style desktop simulation in the browser.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc -b --pretty false",
+    "test": "node scripts/build-logic-tests.mjs && node scripts/.tmp/logic-tests.bundle.mjs && node scripts/build-smoke.mjs && node scripts/.tmp/smoke.bundle.mjs",
+    "test:logic": "node scripts/build-logic-tests.mjs && node scripts/.tmp/logic-tests.bundle.mjs",
+    "test:ui": "node scripts/build-smoke.mjs && node scripts/.tmp/smoke.bundle.mjs",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.70.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "autoprefixer": "^10.6.2",
+    "esbuild": "^0.28.2",
+    "jsdom": "^31.0.0",
+    "postcss": "^8.5.32",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  }
+}
